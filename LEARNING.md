@@ -52,5 +52,6 @@ positive/negative API cases and preservation of 15 other containers.
 
 See [scope](SPEC.md), [actual new-launch evidence](studio/launch-evidence.json),
 [repeat verification](studio/evidence.json) and [trial issue](https://github.com/kaw393939/is373-studio-retry-1027/issues/1).
-The technical GitHub workflow is evaluated separately. Retire the disposable
+The [actual PR #2](https://github.com/kaw393939/is373-studio-retry-1027/pull/2)
+evaluates the technical GitHub workflow separately. Retire the disposable
 trial and remove only its resources after evidence is preserved.

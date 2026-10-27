@@ -35,7 +35,7 @@ reviewed, selected evidence; never commit credentials or raw server output.
 | Preservation of unrelated services | 15 selected container identities/states/ports unchanged at launch and repeat verify |
 | Own prediction, check interpretation, browser observation and keep/revise reason | [LEARNING.md](LEARNING.md), explicitly synthetic role-play; no real learner evidence |
 | Accuracy review before publishing learner excerpts | AI/operator reviewed synthetic labels and real-evidence links; no actual student excerpts |
-| Actual PR, latest CI, merge and issue closure | See actual issue/PR links; final `status` reads their current GitHub state |
+| Actual PR, latest CI, merge and issue closure | [PR #2](https://github.com/kaw393939/is373-studio-retry-1027/pull/2); final `status` reads its current checks/merge and issue state |
 
 Link the exported `studio/evidence.json`, actual CI and issue/PR when available.
 CI does not deploy this server. A fixture, green check, timestamp, closed issue
