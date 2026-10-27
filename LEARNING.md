@@ -1,35 +1,56 @@
-# Lesson 01 · Conversation evidence
+# STUDIO-001 · Instructor simulation
 
-AI-drafted task summary, not a transcript or grade. It may be public. Use actual
-short quotes or labeled paraphrases, name any help supplied, and link actual
-work. Leave missing contributions Pending. A learner can review, correct or
-remove excerpts before publication; accuracy approval is not proof of learning.
-Label role-play honestly rather than treating it as an actual learner response.
-
-**Lesson:** STUDIO-001. **Available conversation context:** Not recorded yet.
+**Synthetic learner replies, not a real student submission.** This is a scripted
+coaching evaluation. Technical commands and browser observations were actually
+performed by the AI/operator; the learner responses below are AI role-play.
+They do not establish human authorship, review or understanding. The public
+record contains no actual learner conversation or credentials.
 
 ## Prediction
 
-Pending.
+Simulated learner, before the second launch plan: “I think DNS finds my server,
+and Traefik uses the hostname to pick the calculator. I don't know what Docker
+network does.” The coach explained that the existing Docker network connects
+Traefik privately to the container without adding another public port.
 
 ## Check interpretation
 
-Pending.
+Simulated learner: “It means the API rejected dividing by zero instead of
+returning a number. I still need to see whether the webpage shows a helpful
+error and clears the last result.” Stimulus was the actual `6 ÷ 0` API check:
+expected 400, received 400. This does not establish every browser behavior.
 
 ## Browser observation
 
-Pending.
+Simulated learner response based on the AI/operator's actual CUA browser check:
+“6 times 7 shows 42 in both result areas and Results match. With divide by zero
+both results become dashes and it says Cannot divide by zero.” This is not a
+human observation; the role-play cannot substitute for a real student's turn.
 
 ## Keep decision
 
-Pending.
+Simulated learner: “Keep it because the website and API agree on 42 and bad
+input shows an error rather than keeping an old answer. The CMS title is
+confusing, but I understand this lesson is hosting the supplied calculator,
+not changing app code.” No application code was changed in this trial.
 
 ## Review
 
-Pending.
+The AI/operator reviewed this synthetic summary for its labels, scope and
+agreement with the actual command/browser evidence before publication. There
+was no real learner excerpt or learner approval. CLI readiness checks only
+record presence, publication and technical evidence; it is not an assessment.
 
 ## AI work and next step
 
-No learner trial recorded. Confirm the student's clone and SSH origin, then
-start the prepared setup. Link SPEC, actual issue/PR and sanitized evidence as
-they become available; do not fabricate missing earlier conversation.
+The AI/operator created a separate template copy and fresh SSH clone, recovered
+from GitHub template-generation timing by pulling after files appeared, created
+a new virtual environment, and ran the prepared checks: Black/Pylint, 91
+non-E2E tests and two Docker/Chromium journeys passed. A real new hosted launch
+and subsequent verify passed the selected release identity, trusted HTTPS,
+positive/negative API cases and preservation of 15 other containers.
+
+See [scope](SPEC.md), [actual new-launch evidence](studio/launch-evidence.json),
+[repeat verification](studio/evidence.json) and [trial issue](https://github.com/kaw393939/is373-studio-retry-1027/issues/1).
+The technical GitHub workflow is evaluated separately. Retire the disposable
+trial and remove only its resources after evidence is preserved.
